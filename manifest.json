@@ -38,6 +38,7 @@
       "description": "Тестовый сервер для проверки модов. Полная свобода творчества!",
       "ip": "localhost",
       "port": 25565,
+      "image": "https://raw.githubusercontent.com/Cheedon175/StarLand/main/images/SandBox.png",
       "mods": [
         {
           "name": "BiblioCraft",
@@ -127,20 +128,21 @@
       ]
     },
     {
-      "id": "survival",
-      "name": "🌲 Выживание",
-      "description": "Классическое выживание с модами. Приватные территории, экономика.",
-      "ip": "localhost",
-      "port": 25566,
-      "mods": []
-    },
-    {
-      "id": "tech",
+      "id": "hitech",
       "name": "⚙️ Техномир",
       "description": "Индустриальные моды: механизмы, энергия, автоматизация.",
       "ip": "localhost",
+      "port": 25566,
+      "image": "https://raw.githubusercontent.com/Cheedon175/StarLand/main/images/HiTech.png",
+      "mods": []
+    },
+    {
+      "id": "magic",
+      "name": "🔮 Магия",
+      "description": "Магические моды: заклинания, ритуалы, волшебные предметы.",
+      "ip": "localhost",
       "port": 25567,
+      "image": "https://raw.githubusercontent.com/Cheedon175/StarLand/main/images/Magic.png",
       "mods": []
     }
   ]
-}
