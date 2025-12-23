@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minecraft": "1.7.10",
   "forge": "1.7.10-10.13.4.1614",
   
@@ -7,32 +7,27 @@
     {
       "name": "Guava 17.0",
       "path": "com/google/guava/guava/17.0/guava-17.0.jar",
-      "url": "https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar",
-      "hash": "9c6ef172e8de35fd8d4d8783e4821e57cdef7445"
+      "url": "https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar"
     },
     {
       "name": "Commons Lang3",
       "path": "org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
-      "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
-      "hash": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
+      "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
     },
     {
       "name": "Launchwrapper",
       "path": "net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
-      "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
-      "hash": "111e7bea9c968cdb3d06ef4571f1a117571de630"
+      "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
     },
     {
       "name": "ASM All",
       "path": "org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
-      "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
-      "hash": "ba186ce620e643bfd96d4e0cb21f5e968a9a3fa7"
+      "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
     },
     {
       "name": "LZMA",
       "path": "lzma/lzma/0.0.1/lzma-0.0.1.jar",
-      "url": "https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar",
-      "hash": "a4fe0708e068f1062ea03d79b9e5b0d7f1a8d8b8"
+      "url": "https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar"
     }
   ],
 
@@ -43,7 +38,86 @@
       "description": "Тестовый сервер для проверки модов. Полная свобода творчества!",
       "ip": "localhost",
       "port": 25565,
-      "mods": []
+      "mods": [
+        {
+          "name": "BiblioCraft",
+          "file": "BiblioCraftv1.11.6MC1.7.10.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/BiblioCraftv1.11.6MC1.7.10.jar",
+          "size": 5452800
+        },
+        {
+          "name": "Biomes O Plenty",
+          "file": "BiomesOPlenty_1.7.10_2.1.0.2308_universal.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/BiomesOPlenty_1.7.10_2.1.0.2308_universal.jar",
+          "size": 5755904
+        },
+        {
+          "name": "Chisel",
+          "file": "chisel_1.7.10_1.5.5.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/chisel_1.7.10_1.5.5.jar",
+          "size": 2104320
+        },
+        {
+          "name": "CodeChickenCore",
+          "file": "CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+          "size": 144384
+        },
+        {
+          "name": "DecoCraft",
+          "file": "decocraft-2.4.2_1.7.10.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/decocraft-2.4.2_1.7.10.jar",
+          "size": 13366272
+        },
+        {
+          "name": "Et Futurum",
+          "file": "etfuturum-2.6.2.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/etfuturum-2.6.2.jar",
+          "size": 4840448
+        },
+        {
+          "name": "Exotic Birds",
+          "file": "ExoticBirds1.7.10_1.4.6.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/ExoticBirds1.7.10_1.4.6.jar",
+          "size": 2183168
+        },
+        {
+          "name": "Iron Chests",
+          "file": "iron_chests_mod_1.7.10.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/iron_chests_mod_1.7.10.jar",
+          "size": 157696
+        },
+        {
+          "name": "Not Enough Items",
+          "file": "NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+          "size": 514048
+        },
+        {
+          "name": "Twilight Forest",
+          "file": "TwilightForest-2.4.3-1.7.10.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/TwilightForest-2.4.3-1.7.10.jar",
+          "size": 3676160
+        },
+        {
+          "name": "UniMixins",
+          "file": "unimixins-all-1.7.10-0.1.19.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/unimixins-all-1.7.10-0.1.19.jar",
+          "size": 5240832
+        },
+        {
+          "name": "Wild Mobs",
+          "file": "WildMobsMod_1.7.10_1.3.1.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/WildMobsMod_1.7.10_1.3.1.jar",
+          "size": 1103872
+        },
+        {
+          "name": "Xaeros Minimap",
+          "file": "Xaeros_Minimap_21.10.44_Forge_1.7.10.jar",
+          "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/Xaeros_Minimap_21.10.44_Forge_1.7.10.jar",
+          "size": 756736
+        }
+      ]
     },
     {
       "id": "survival",
