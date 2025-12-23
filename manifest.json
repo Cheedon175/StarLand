@@ -64,6 +64,13 @@
           "size": 144384
         },
         {
+          "name": "CodeChickenLib",
+          "file": "CodeChickenLib-1.7.10-1.1.3.141-universal.jar",
+          "url": "https://github.com/Cheedon175/StarLandreleases/download/v1.0.0/CodeChickenLib-1.7.10-1.1.3.141-universal.jar",
+          "size": 300000,
+          "subfolder": "1.7.10"
+        },
+        {
           "name": "DecoCraft",
           "file": "decocraft-2.4.2_1.7.10.jar",
           "url": "https://github.com/Cheedon175/StarLand/releases/download/v1.0.0/decocraft-2.4.2_1.7.10.jar",
