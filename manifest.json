@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "minecraft": "1.7.10",
+  "forge": "1.7.10-10.13.4.1614",
+  
+  "libraries": [
+    {
+      "name": "Guava 17.0",
+      "path": "com/google/guava/guava/17.0/guava-17.0.jar",
+      "url": "https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar",
+      "hash": "9c6ef172e8de35fd8d4d8783e4821e57cdef7445"
+    },
+    {
+      "name": "Commons Lang3",
+      "path": "org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+      "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+      "hash": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
+    },
+    {
+      "name": "Launchwrapper",
+      "path": "net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+      "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+      "hash": "111e7bea9c968cdb3d06ef4571f1a117571de630"
+    },
+    {
+      "name": "ASM All",
+      "path": "org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+      "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar",
+      "hash": "ba186ce620e643bfd96d4e0cb21f5e968a9a3fa7"
+    },
+    {
+      "name": "LZMA",
+      "path": "lzma/lzma/0.0.1/lzma-0.0.1.jar",
+      "url": "https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar",
+      "hash": "a4fe0708e068f1062ea03d79b9e5b0d7f1a8d8b8"
+    }
+  ],
+
+  "servers": [
+    {
+      "id": "sandbox",
+      "name": "🎮 Песочница",
+      "description": "Тестовый сервер для проверки модов. Полная свобода творчества!",
+      "ip": "localhost",
+      "port": 25565,
+      "mods": []
+    },
+    {
+      "id": "survival",
+      "name": "🌲 Выживание",
+      "description": "Классическое выживание с модами. Приватные территории, экономика.",
+      "ip": "localhost",
+      "port": 25566,
+      "mods": []
+    },
+    {
+      "id": "tech",
+      "name": "⚙️ Техномир",
+      "description": "Индустриальные моды: механизмы, энергия, автоматизация.",
+      "ip": "localhost",
+      "port": 25567,
+      "mods": []
+    }
+  ]
+}
