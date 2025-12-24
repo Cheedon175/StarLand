@@ -5,33 +5,171 @@
       "password": "admin123",
       "role": "owner",
       "registered": "2024-12-25"
+    },
+    {
+      "username": "player1",
+      "password": "test123",
+      "role": "player",
+      "registered": "2024-12-25"
+    },
+    {
+      "username": "vipuser",
+      "password": "vip123",
+      "role": "vip",
+      "registered": "2024-12-25"
+    },
+    {
+      "username": "moder",
+      "password": "moder123",
+      "role": "moderator",
+      "registered": "2024-12-25"
     }
   ],
+  
   "roles": {
     "player": {
       "name": "Игрок",
-      "color": "#ffffff",
-      "permissions": ["play"]
+      "color": "#aaaaaa",
+      "priority": 1,
+      "permissions": {
+        "play": true,
+        "chat": true,
+        "home": 1,
+        "tpa": true
+      },
+      "commands": ["/spawn", "/home", "/sethome", "/tpa", "/tpaccept", "/tpdeny"]
     },
+    
     "vip": {
       "name": "VIP",
       "color": "#ffaa00",
-      "permissions": ["play", "fly", "kit_vip"]
+      "priority": 2,
+      "permissions": {
+        "play": true,
+        "chat": true,
+        "chat_color": true,
+        "home": 3,
+        "tpa": true,
+        "fly": true,
+        "kit_vip": true
+      },
+      "commands": ["/spawn", "/home", "/sethome", "/tpa", "/tpaccept", "/tpdeny", "/fly", "/kit vip"]
     },
+    
+    "premium": {
+      "name": "Premium",
+      "color": "#55ffff",
+      "priority": 3,
+      "permissions": {
+        "play": true,
+        "chat": true,
+        "chat_color": true,
+        "home": 5,
+        "tpa": true,
+        "fly": true,
+        "kit_vip": true,
+        "kit_premium": true,
+        "nick": true
+      },
+      "commands": ["/spawn", "/home", "/sethome", "/tpa", "/tpaccept", "/tpdeny", "/fly", "/kit vip", "/kit premium", "/nick"]
+    },
+    
     "moderator": {
       "name": "Модератор",
       "color": "#55ff55",
-      "permissions": ["play", "kick", "mute", "warn"]
+      "priority": 10,
+      "permissions": {
+        "play": true,
+        "chat": true,
+        "chat_color": true,
+        "home": 5,
+        "tpa": true,
+        "fly": true,
+        "kick": true,
+        "mute": true,
+        "warn": true,
+        "vanish": true
+      },
+      "commands": ["/spawn", "/home", "/sethome", "/tpa", "/fly", "/kick", "/mute", "/unmute", "/warn", "/vanish", "/tp"]
     },
+    
+    "senior_moderator": {
+      "name": "Ст. Модератор",
+      "color": "#00aa00",
+      "priority": 15,
+      "permissions": {
+        "play": true,
+        "chat": true,
+        "chat_color": true,
+        "home": 10,
+        "tpa": true,
+        "fly": true,
+        "kick": true,
+        "mute": true,
+        "warn": true,
+        "vanish": true,
+        "ban": true,
+        "tempban": true,
+        "unban": true
+      },
+      "commands": ["/spawn", "/home", "/sethome", "/tpa", "/fly", "/kick", "/mute", "/unmute", "/warn", "/vanish", "/tp", "/ban", "/tempban", "/unban"]
+    },
+    
     "admin": {
       "name": "Администратор",
       "color": "#ff5555",
-      "permissions": ["play", "kick", "mute", "warn", "ban", "gamemode"]
+      "priority": 50,
+      "permissions": {
+        "play": true,
+        "chat": true,
+        "chat_color": true,
+        "home": 999,
+        "tpa": true,
+        "fly": true,
+        "kick": true,
+        "mute": true,
+        "warn": true,
+        "vanish": true,
+        "ban": true,
+        "tempban": true,
+        "unban": true,
+        "gamemode": true,
+        "give": true,
+        "tp_all": true
+      },
+      "commands": ["/spawn", "/home", "/sethome", "/tpa", "/fly", "/kick", "/mute", "/warn", "/vanish", "/tp", "/ban", "/tempban", "/unban", "/gamemode", "/gm", "/give", "/i"]
     },
+    
     "owner": {
       "name": "Владелец",
       "color": "#aa00aa",
-      "permissions": ["*"]
+      "priority": 100,
+      "permissions": {
+        "*": true
+      },
+      "commands": ["*"]
     }
+  },
+  
+  "permission_descriptions": {
+    "play": "Доступ к игре",
+    "chat": "Писать в чат",
+    "chat_color": "Цветной чат",
+    "home": "Количество точек дома",
+    "tpa": "Запрос на телепорт",
+    "fly": "Режим полёта",
+    "kick": "Кикать игроков",
+    "mute": "Мутить игроков",
+    "warn": "Выдавать предупреждения",
+    "ban": "Банить игроков",
+    "tempban": "Временный бан",
+    "unban": "Разбанить игрока",
+    "vanish": "Режим невидимки",
+    "gamemode": "Менять режим игры",
+    "give": "Выдавать предметы",
+    "tp_all": "Телепорт к любому",
+    "kit_vip": "VIP набор",
+    "kit_premium": "Premium набор",
+    "nick": "Смена ника"
   }
 }
