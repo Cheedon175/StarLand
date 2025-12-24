@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "owner",
+      "registered": "2024-12-25"
+    }
+  ],
+  "roles": {
+    "player": {
+      "name": "Игрок",
+      "color": "#ffffff",
+      "permissions": ["play"]
+    },
+    "vip": {
+      "name": "VIP",
+      "color": "#ffaa00",
+      "permissions": ["play", "fly", "kit_vip"]
+    },
+    "moderator": {
+      "name": "Модератор",
+      "color": "#55ff55",
+      "permissions": ["play", "kick", "mute", "warn"]
+    },
+    "admin": {
+      "name": "Администратор",
+      "color": "#ff5555",
+      "permissions": ["play", "kick", "mute", "warn", "ban", "gamemode"]
+    },
+    "owner": {
+      "name": "Владелец",
+      "color": "#aa00aa",
+      "permissions": ["*"]
+    }
+  }
+}
