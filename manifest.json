@@ -35,7 +35,7 @@
     {
       "id": "sandbox",
       "name": "SandBox",
-      "description": "Полная свобода творчества!",
+      "description": "Полная свободa творчества!",
       "ip": "localhost",
       "port": 25565,
       "image": "https://raw.githubusercontent.com/Cheedon175/StarLand/main/images/SandBox.png",
